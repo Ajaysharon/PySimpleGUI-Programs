@@ -23,7 +23,8 @@ layout=[
 
 window=sg.Window("Todolist",layout)
 
-while True
+
+while True: #hi
     event,values=window.Read()
     if event==sg.WINDOW_CLOSED:
         break
